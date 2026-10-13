@@ -1,17 +1,17 @@
 {
-  "name": "raw-studio",
+  "name": "JenMusic",
   "version": "1.0.0",
-  "description": "RAW Studio photo editor",
+  "description": "Music Studio editor",
   "main": "main.js",
   "devDependencies": {
     "electron": "22.3.27",
     "electron-builder": "24.13.3"
   },
   "build": {
-    "appId": "com.example.rawstudio",
-    "productName": "RAW Studio",
+    "appId": "com.example.JenMusic",
+    "productName": "Music Studio",
     "files": ["index.html", "main.js"],
-    "artifactName": "RAW-Studio-${version}.${ext}",
+    "artifactName": "JenMusic-${version}.${ext}",
     "linux": {
       "target": ["AppImage"],
       "category": "Graphics"
